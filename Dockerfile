@@ -1,4 +1,4 @@
-FROM beevelop/nodejs
+FROM beevelop/nodejs:argon
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
 # Install Python.
