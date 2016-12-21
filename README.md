@@ -7,9 +7,30 @@
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
 # Node.js with Python based on [beevelop/nodejs](https://github.com/beevelop/docker-nodejs)
-- npm: 3.10.8
-- Node: v6.9.1
-- Python: 2.7.10
+- npm: 3.10.9
+- Node: v6.9.2
+- Python: 2.7.12
+
+----
+### Pull from Docker Hub
+```
+docker pull beevelop/nodejs-python:latest
+```
+
+### Build from GitHub
+```
+docker build -t beevelop/nodejs-python github.com/beevelop/docker-nodejs-python
+```
+
+### Run image
+```
+docker run -it beevelop/nodejs-python bash
+```
+
+### Use as base image
+```Dockerfile
+FROM beevelop/nodejs-python:latest
+```
 
 ## Disclaimer
 > This is experimental and might break from time to time. Use at your own risk!
