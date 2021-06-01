@@ -1,9 +1,12 @@
-[![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/nodejs-python.svg?style=flat-square)](https://links.beevelop.com/d-nodejs-python)
-[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/nodejs-python/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs-python)
-[![Size](https://shields.beevelop.com/docker/image/size/beevelop/nodejs-python/latest.svg?style=flat-square)](https://links.beevelop.com/d-nodejs-python)
-[![Release](https://shields.beevelop.com/github/release/beevelop/docker-nodejs-python.svg?style=flat-square)](https://github.com/beevelop/docker-nodejs-python/releases)
-![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
-[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/beevelop/docker-nodejs-python/Docker%20Image?style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/nodejs-python.svg?style=for-the-badge)
+![Docker Stars](https://img.shields.io/docker/stars/beevelop/nodejs-python?style=for-the-badge)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/beevelop/nodejs-python/latest?style=for-the-badge)
+![License](https://img.shields.io/github/license/beevelop/docker-nodejs-python?style=for-the-badge)
+[![GitHub release](https://img.shields.io/github/release/beevelop/docker-nodejs-python.svg?style=for-the-badge)](https://github.com/beevelop/docker-nodejs-python/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/beevelop/docker-nodejs-python?style=for-the-badge)
+![CalVer](https://img.shields.io/badge/CalVer-YYYY.MM.MICRO-22bfda.svg?style=for-the-badge)
+[![Beevelop](https://img.shields.io/badge/-%20Made%20with%20%F0%9F%8D%AF%20by%20%F0%9F%90%9Dvelop-blue.svg?style=for-the-badge)](https://beevelop.com)
 
 # Node.js with Python based on [beevelop/nodejs](https://github.com/beevelop/docker-nodejs)
 
