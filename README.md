@@ -10,8 +10,8 @@
 
 # Node.js with Python based on [beevelop/nodejs](https://github.com/beevelop/docker-nodejs)
 
-- npm: `6.9.0`
-- Node: `v10.16.3`
+- npm: `6.14.12`
+- Node: `v14.16.1`
 - Python: `3.8.5`
 
 ---
