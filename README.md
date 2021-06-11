@@ -14,32 +14,29 @@
 - Node: `v14.16.1`
 - Python: `3.8.5`
 
+### Pull, build or run this image
+```bash
+# pull the most recent tag / release
+docker pull beevelop/nodejs-python:v2021.06.1
+
+# or run the image interactively
+docker run --rm --name beevelop -it beevelop/nodejs-python:v2021.06.1 bash
+
+# or build the image from GitHub
+docker build -t beevelop/nodejs-python github.com/beevelop/docker-base
+```
+
+### Or use as base image
+```Dockerfile
+FROM beevelop/nodejs-python:v2021.06.1
+```
+
 ---
 
-### Pull from Docker Hub
+![Beevelop's Docker Image Hierarchy](https://gist.githubusercontent.com/beevelop/b0cddab7209a683c77560d06ff00bc8e/raw/15429ee1d02e2c4dc019b760ca8c7ceff5911b82/hierarchy.png)
 
-```
-docker pull beevelop/nodejs-python:latest
-```
+---
 
-### Build from GitHub
+### Use tags where possible, because...
 
-```
-docker build -t beevelop/nodejs-python github.com/beevelop/docker-nodejs-python
-```
-
-### Run image
-
-```
-docker run -it beevelop/nodejs-python bash
-```
-
-### Use as base image
-
-```Dockerfile
-FROM beevelop/nodejs-python:latest
-```
-
-## Disclaimer
-
-> This is experimental and might break from time to time. Use at your own risk!
+![One does not simply use latest](https://i.imgflip.com/1fgwxr.jpg)
